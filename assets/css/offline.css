@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+    color: white;
+    font-family : "Doto", sans-serif;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -19,7 +26,7 @@ h1, h2 {
 }
 
 h1:hover, h2:hover {
-    color: rgb(214, 76, 248);
+    color: rgb(170, 155, 255);
     transform: translateY(-10px);
 }
 
@@ -29,7 +36,6 @@ p {
     white-space: nowrap;
     border-right: 2px solid white;
     display: inline-block;
-    font-family: monospace;
     animation: blink-cursor 0.8s steps(2) infinite;
     margin-top: 10px;
     user-select: none;
