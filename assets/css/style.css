@@ -40,3 +40,21 @@ footer {
     right: 0;
     z-index: -1;
 }
+
+.proyects {
+    background-color: rgb(252, 209, 209);
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
