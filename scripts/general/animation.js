@@ -1,5 +1,5 @@
 const txtanimation = document.getElementById('text-animate');
-const txt = [ 'Desarrollo Web FullStack', 'Desarrollo de videojuegos', 'Desarrollado de Discord Bots', 'Desarollo de aplicaciones mobiles'];
+const txt = [ 'Desarrollo Web FullStack', 'Desarrollo de videojuegos', 'Desarrollo de Discord Bots', 'Desarollo de aplicaciones mobiles', 'Desarollo de Plugins para Minecraft'];
 let i = 0;
 
 function typeText(text, callback) {
