@@ -10,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     min-height: 100vh;
     background-color: rgb(19, 18, 22);
 }
@@ -48,6 +47,7 @@ h1:hover, h2:hover {
     }
 }
 
+
 .icons {
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@ h1:hover, h2:hover {
 .github-icon:hover {
     transform: scale(1.2);
     opacity: 0.8;
-    filter: invert(1); 
+    filter: invert(1);
 }
 
 footer {
