@@ -55,8 +55,8 @@ h1:hover, h2:hover {
 }
 
 .social-icon {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
     cursor: pointer;
     transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
 }
